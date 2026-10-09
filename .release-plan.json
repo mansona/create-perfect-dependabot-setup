@@ -1,0 +1,22 @@
+{
+  "solution": {
+    "create-perfect-dependabot-setup": {
+      "impact": "minor",
+      "oldVersion": "0.0.0",
+      "newVersion": "0.1.0",
+      "tagName": "latest",
+      "constraints": [
+        {
+          "impact": "minor",
+          "reason": "Appears in changelog section :rocket: Enhancement"
+        },
+        {
+          "impact": "patch",
+          "reason": "Appears in changelog section :house: Internal"
+        }
+      ],
+      "pkgJSONPath": "./package.json"
+    }
+  },
+  "description": "## Release (2026-10-09)\n\n* create-perfect-dependabot-setup 0.1.0 (minor)\n\n#### :rocket: Enhancement\n* `create-perfect-dependabot-setup`\n  * [#1](https://github.com/mansona/create-perfect-dependabot-setup/pull/1) initial working implementation ([@mansona](https://github.com/mansona))\n\n#### :house: Internal\n* `create-perfect-dependabot-setup`\n  * [#3](https://github.com/mansona/create-perfect-dependabot-setup/pull/3) setup release plan ([@mansona](https://github.com/mansona))\n\n#### Committers: 1\n- Chris Manson ([@mansona](https://github.com/mansona))\n"
+}
