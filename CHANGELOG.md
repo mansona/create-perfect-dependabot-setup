@@ -2,6 +2,21 @@
 
 ## Release (2026-10-09)
 
+* create-perfect-dependabot-setup 0.1.1 (patch)
+
+#### :bug: Bug Fix
+* `create-perfect-dependabot-setup`
+  * [#8](https://github.com/mansona/create-perfect-dependabot-setup/pull/8) fix bin link ([@mansona](https://github.com/mansona))
+
+#### :memo: Documentation
+* `create-perfect-dependabot-setup`
+  * [#5](https://github.com/mansona/create-perfect-dependabot-setup/pull/5) add a basic readme ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
+## Release (2026-10-09)
+
 * create-perfect-dependabot-setup 0.1.0 (minor)
 
 #### :rocket: Enhancement
