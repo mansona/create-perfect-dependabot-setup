@@ -1,10 +1,8 @@
 import { Project } from "fixturify-project";
-import { describe, it, afterEach, beforeAll, beforeEach, expect } from "vitest";
-import { readdir, readFile  }from "node:fs/promises"
+import { describe, it, afterEach, expect } from "vitest";
+import { readFile  }from "node:fs/promises"
 
 import { run } from '../index.js'
-import { join } from "node:path";
-
 
 async function setupAndExecute(files = {}){
   const project = new Project('test-app', '1.0.0', files);
@@ -27,9 +25,8 @@ describe('basic functionality', () => {
 
   it('creates a file when there are none', async () => {
     // no files
-    const project = await setupAndExecute({});
+    await setupAndExecute({});
 
-    debugger
     expect(await readFile('.github/dependabot.yml', 'utf8')).toMatchInlineSnapshot(`
       "version: 2
       updates:
