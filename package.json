@@ -9,7 +9,7 @@
   },
   "author": "Chris Manson <chris@manson.ie>",
   "main": "index.js",
-  "bin": "perfect-dependabot-setup.js",
+  "bin": "./bin/perfect-dependabot-setup.js",
   "scripts": {
     "lint": "eslint .",
     "test": "vitest"
