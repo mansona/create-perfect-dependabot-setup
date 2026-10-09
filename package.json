@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "description": "",
   "keywords": [],
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:mansona/create-perfect-dependabot-setup.git"
