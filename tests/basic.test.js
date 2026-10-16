@@ -41,6 +41,7 @@ describe('basic functionality', () => {
           schedule:
             interval: weekly
             time: "03:00"
+            day: "monday"
             timezone: Europe/Paris
           # There really should only ever be one of these since it's designed to group all patches in one
           open-pull-requests-limit: 2
@@ -50,7 +51,7 @@ describe('basic functionality', () => {
           schedule:
             interval: daily
             time: "03:00"
-            timezone: America/New_York
+            timezone: Europe/Paris
           open-pull-requests-limit: 10"
     `)
   })
