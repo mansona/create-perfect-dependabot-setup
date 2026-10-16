@@ -2,7 +2,7 @@
 
 This is a simple tool to update your `.github/dependabot.yml` to be **perfect** 😍
 
-To run just copy the following: 
+To run just copy the following:
 
 ```bash
 pnpm create perfect-dependabot-setup@latest
