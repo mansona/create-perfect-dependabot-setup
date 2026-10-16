@@ -2,6 +2,21 @@
 
 ## Release (2026-10-16)
 
+* create-perfect-dependabot-setup 0.2.0 (minor)
+
+#### :rocket: Enhancement
+* `create-perfect-dependabot-setup`
+  * [#21](https://github.com/mansona/create-perfect-dependabot-setup/pull/21) optimise PRs for actions updates ([@mansona](https://github.com/mansona))
+
+#### :bug: Bug Fix
+* `create-perfect-dependabot-setup`
+  * [#19](https://github.com/mansona/create-perfect-dependabot-setup/pull/19) Add prettier setup ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
+## Release (2026-10-16)
+
 * create-perfect-dependabot-setup 0.1.3 (patch)
 
 #### :bug: Bug Fix
