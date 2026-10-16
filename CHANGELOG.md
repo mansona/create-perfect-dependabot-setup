@@ -1,5 +1,16 @@
 # Changelog
 
+## Release (2026-10-16)
+
+* create-perfect-dependabot-setup 0.1.3 (patch)
+
+#### :bug: Bug Fix
+* `create-perfect-dependabot-setup`
+  * [#17](https://github.com/mansona/create-perfect-dependabot-setup/pull/17) fix schedules ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
 ## Release (2026-10-09)
 
 * create-perfect-dependabot-setup 0.1.2 (patch)
