@@ -31,8 +31,12 @@ describe('basic functionality', () => {
       .toMatchInlineSnapshot(`
         "version: 2
         updates:
+          # NPM dev dependencies should be grouped and only updated once a week to keep noise down
           - package-ecosystem: npm
             directory: '/'
+            ignore:
+              # See below for explanation
+              - dependency-name: '@types/node'
             groups:
               dev-dependencies:
                 dependency-type: 'development'
@@ -47,6 +51,23 @@ describe('basic functionality', () => {
             # There really should only ever be one of these since it's designed to group all patches in one
             open-pull-requests-limit: 2
             versioning-strategy: increase-if-necessary
+
+          # @types/node major version should only ever be updated when you update your minimum version of node that
+          # your package supports. This means that you won't be prompted (with autocomplete) to use functions that
+          # don't exist on your lowest supported node version
+          - package-ecosystem: npm
+            directory: '/'
+            allow:
+              - dependency-name: '@types/node'
+                update-types:
+                  - version-update:semver-minor
+                  - version-update:semver-patch
+            schedule:
+              interval: weekly
+              time: '03:00'
+              day: 'monday'
+              timezone: Europe/Paris
+
           - package-ecosystem: github-actions
             directory: '/'
             schedule:
