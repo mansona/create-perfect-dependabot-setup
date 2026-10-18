@@ -1,5 +1,16 @@
 # Changelog
 
+## Release (2026-10-18)
+
+* create-perfect-dependabot-setup 0.3.0 (minor)
+
+#### :rocket: Enhancement
+* `create-perfect-dependabot-setup`
+  * [#23](https://github.com/mansona/create-perfect-dependabot-setup/pull/23) don't update @types/node ([@mansona](https://github.com/mansona))
+
+#### Committers: 1
+- Chris Manson ([@mansona](https://github.com/mansona))
+
 ## Release (2026-10-16)
 
 * create-perfect-dependabot-setup 0.2.0 (minor)
